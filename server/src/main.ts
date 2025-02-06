@@ -25,7 +25,7 @@ app.get("/api/equipement/", (req, res) => {
 });
 
 app.get("/api/raids", (req, res) => {
-  res.json(data.raid);
+  res.json(data.raids);
 });
 
 app.get("/api/destinations", (req, res) => {
@@ -52,11 +52,17 @@ app.get("/api/transport", (req, res) => {
   res.json(data.Transport);
 });
 
-app.get("/api/recrutment", (req, res) => {
+app.get("/api/recrutement", (req, res) => {
   res.json(data.Recrutement);
 });
 
+app.get("/api/fournitures", (req, res) => {
+  res.json(data.Fournitures);
+});
 
+app.get("/api/transportation", (req, res) => {
+  res.json(data.transportations);
+});
 
 // Get the port from the environment variables
 const port = process.env.APP_PORT;
