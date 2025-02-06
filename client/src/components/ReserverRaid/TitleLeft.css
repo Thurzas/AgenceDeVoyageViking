@@ -1,0 +1,20 @@
+.TitleLeft {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  gap: 50px;
+  margin-left: 30px;
+
+  h2 {
+    font-size: 64px;
+  }
+  p {
+    color: #000000;
+    font-size: 36px;
+  }
+}
+.ButtonPositionTitleLeft {
+  display: flex;
+  margin-left: 30px;
+}
