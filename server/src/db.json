@@ -73,36 +73,128 @@
       "intitulé_Objectif": "Cartes maritimes"
     }
   ],
+  "transportations": [
+    {
+      "id_transportation": 1,
+      "id_transport": 1,
+      "id_location": 1
+    },
+    {
+      "id_transportation": 2,
+      "id_transport": 2,
+      "id_location": 2
+    },
+    {
+      "id_transportation": 3,
+      "id_transport": 3,
+      "id_location": 3
+    },
+    {
+      "id_transportation": 4,
+      "id_transport": 4,
+      "id_location": 4
+    },
+    {
+      "id_transportation": 5,
+      "id_transport": 5,
+      "id_location": 5
+    },
+    {
+      "id_transportation": 6,
+      "id_transport": 6,
+      "id_location": 6
+    },
+    {
+      "id_transportation": 7,
+      "id_transport": 7,
+      "id_location": 1
+    },
+    {
+      "id_transportation": 8,
+      "id_transport": 8,
+      "id_location": 2
+    },
+    {
+      "id_transportation": 9,
+      "id_transport": 9,
+      "id_location": 3
+    },
+    {
+      "id_transportation": 10,
+      "id_transport": 10,
+      "id_location": 4
+    },
+    {
+      "id_transportation": 11,
+      "id_transport": 11,
+      "id_location": 5
+    },
+    {
+      "id_transportation": 12,
+      "id_transport": 12,
+      "id_location": 6
+    }
+  ],
   "Transport": [
     {
-      "id_transport": "1",
+      "id_transport": 1,
       "nom_transport": "Karvi",
-      "prix_location": "500"
+      "prix_location": 500,
+      "nombre_places": 20,
+      "solidité": "fragile",
+      "description": "Un petit navire léger et rapide, idéal pour les raids rapides et les explorations côtières. Parfait pour les petits groupes, mais peu résistant en cas de tempête ou de combat naval.",
+      "vitesse": "rapide",
+      "puissance": "faible"
     },
     {
-      "id_transport": "2",
+      "id_transport": 2,
       "nom_transport": "Færing",
-      "prix_location": "300"
+      "prix_location": 300,
+      "nombre_places": 8,
+      "solidité": "très fragile",
+      "description": "Une petite embarcation légère, utilisée pour le transport de quelques personnes ou pour la pêche. Très rapide, mais inadaptée aux eaux agitées ou aux combats.",
+      "vitesse": "très rapide",
+      "puissance": "faible"
     },
     {
-      "id_transport": "3",
+      "id_transport": 3,
       "nom_transport": "Snekkja",
-      "prix_location": "1200"
+      "prix_location": 1200,
+      "nombre_places": 40,
+      "solidité": "moyenne",
+      "description": "Un navire polyvalent, utilisé pour les raids et les voyages en mer. Assez solide pour affronter les vagues modérées et transporter une bonne quantité de butin.",
+      "vitesse": "modérée",
+      "puissance": "moyenne"
     },
     {
-      "id_transport": "4",
+      "id_transport": 4,
       "nom_transport": "Skeid",
-      "prix_location": "2500"
+      "prix_location": 2500,
+      "nombre_places": 70,
+      "solidité": "élevée",
+      "description": "Un grand navire de guerre, conçu pour les batailles navales et les raids de grande envergure. Capable de transporter de nombreux guerriers et de résister à des conditions difficiles.",
+      "vitesse": "modérée",
+      "puissance": "élevée"
     },
     {
-      "id_transport": "5",
+      "id_transport": 5,
       "nom_transport": "Drakkar",
-      "prix_location": "5000"
+      "prix_location": 5000,
+      "nombre_places": 100,
+      "solidité": "très élevée",
+      "description": "Le navire emblématique des Vikings, reconnaissable à sa proue sculptée en forme de dragon. Très puissant et solide, il est utilisé pour les raids majeurs et les expéditions lointaines. Lent, mais impressionnant et redoutable.",
+      "vitesse": "lente",
+      "puissance": "très élevée"
     },
     {
-      "id_transport": "6",
+      "id_transport": 6,
       "nom_transport": "Knarr",
-      "prix_location": "3000"
+      "prix_location": 3000,
+      "nombre_places": 30,
+      "solidité": "élevée",
+      "description": "Un navire de commerce robuste, conçu pour transporter des marchandises sur de longues distances. Moins rapide et moins maniable que les navires de guerre, mais très résistant et fiable pour les voyages en haute mer.",
+      "vitesse": "lente",
+      "puissance": "moyenne"
     }
   ],
   "Pays": [
@@ -205,60 +297,60 @@
       "id_pays": "mais protégé par des guerriers fanatiques."
     }
   ],
-    "raids": [
-        {
-        "id_raid": 1,
-        "id_jarl": 1,
-        "id_Lieu": 1,
-        "pays": "France",
-        "difficulté": "facile",
-        "gain": "moyen",
-        "description": "Un monastère riche en objets sacrés et en provisions, mais faiblement défendu.",
-        "date": "2025-02-06T08:00:00",
-        "is_secured": false
-        },
-        {
-        "id_raid": 2,
-        "id_jarl": 2,
-        "id_Lieu": 2,
-        "difficulté": "moyen",
-        "gain": "conséquent",
-        "description": "Un château fortifié avec des réserves importantes, mais une garnison vigilante.",
-        "date": "2025-02-07T09:30:00",
-        "is_secured": true
-        },
-        {
-        "id_raid": 3,
-        "id_jarl": 3,
-        "id_Lieu": 5,
-        "difficulté": "facile",
-        "gain": "moyen",
-        "description": "Un village monastique isolé avec des richesses sacrées, mais peu de défenses.",
-        "date": "2025-02-08T07:15:00",
-        "is_secured": false
-        },
-        {
-        "id_raid": 4,
-        "id_jarl": 4,
-        "id_Lieu": 6,
-        "difficulté": "difficile",
-        "gain": "conséquent",
-        "description": "Une forteresse anglaise bien défendue, mais regorgeant de trésors et de provisions.",
-        "date": "2025-02-09T10:00:00",
-        "is_secured": true
-        },
-        {
-        "id_raid": 5,
-        "id_jarl": 5,
-        "id_Lieu": 12,
-        "difficulté": "légendaire",
-        "gain": "royale",
-        "description": "Un temple sacré regorgeant d'offrandes et de trésors, mais protégé par des guerriers fanatiques.",
-        "date": "2025-02-10T12:45:00",
-        "is_secured": false
-        }
-    ],
-  
+  "raids": [
+    {
+      "id_raid": 1,
+      "id_jarl": 1,
+      "id_Lieu": 1,
+      "pays": "France",
+      "difficulté": "facile",
+      "gain": "moyen",
+      "description": "Un monastère riche en objets sacrés et en provisions, mais faiblement défendu.",
+      "date": "2025-02-06T08:00:00",
+      "is_secured": false
+    },
+    {
+      "id_raid": 2,
+      "id_jarl": 2,
+      "id_Lieu": 2,
+      "difficulté": "moyen",
+      "gain": "conséquent",
+      "description": "Un château fortifié avec des réserves importantes, mais une garnison vigilante.",
+      "date": "2025-02-07T09:30:00",
+      "is_secured": true
+    },
+    {
+      "id_raid": 3,
+      "id_jarl": 3,
+      "id_Lieu": 5,
+      "difficulté": "facile",
+      "gain": "moyen",
+      "description": "Un village monastique isolé avec des richesses sacrées, mais peu de défenses.",
+      "date": "2025-02-08T07:15:00",
+      "is_secured": false
+    },
+    {
+      "id_raid": 4,
+      "id_jarl": 4,
+      "id_Lieu": 6,
+      "difficulté": "difficile",
+      "gain": "conséquent",
+      "description": "Une forteresse anglaise bien défendue, mais regorgeant de trésors et de provisions.",
+      "date": "2025-02-09T10:00:00",
+      "is_secured": true
+    },
+    {
+      "id_raid": 5,
+      "id_jarl": 5,
+      "id_Lieu": 12,
+      "difficulté": "légendaire",
+      "gain": "royale",
+      "description": "Un temple sacré regorgeant d'offrandes et de trésors, mais protégé par des guerriers fanatiques.",
+      "date": "2025-02-10T12:45:00",
+      "is_secured": false
+    }
+  ],
+
   "Location": [
     {
       "id_location": "1",
