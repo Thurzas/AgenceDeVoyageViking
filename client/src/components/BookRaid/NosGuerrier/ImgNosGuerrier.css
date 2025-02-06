@@ -1,0 +1,16 @@
+.ImgNosGuerrier {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--third-color);
+  gap: 15%;
+
+  img {
+    margin: 30px 0;
+    width: 20%;
+    border-radius: 10px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    object-position: top center;
+  }
+}

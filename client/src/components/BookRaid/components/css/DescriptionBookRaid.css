@@ -1,0 +1,16 @@
+.DivDescritpionRaid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  width: 50%;
+
+  h1 {
+    color: white;
+    font-size: 96px;
+  }
+  p {
+    color: white;
+    font-size: 32px;
+  }
+}
