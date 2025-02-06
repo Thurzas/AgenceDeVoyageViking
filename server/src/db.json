@@ -1,854 +1,810 @@
 {
-    "Jarl": [
+  "Jarl": [
+    {
+      "id_jarl": "1",
+      "cranes": "10",
+      "golds": "500",
+      "nom_Jarl": "Ragnar Lothbrok"
+    },
+    {
+      "id_jarl": "2",
+      "cranes": "8",
+      "golds": "300",
+      "nom_Jarl": "Bjorn Côtes-de-Fer"
+    },
+    {
+      "id_jarl": "3",
+      "cranes": "12",
+      "golds": "700",
+      "nom_Jarl": "Ivar le Désossé"
+    },
+    {
+      "id_jarl": "4",
+      "cranes": "7",
+      "golds": "400",
+      "nom_Jarl": "Harald Belle-Crin"
+    },
+    {
+      "id_jarl": "5",
+      "cranes": "15",
+      "golds": "1000",
+      "nom_Jarl": "Sigurd Serpent-Œil"
+    }
+  ],
+  "Equipement": [
+    {
+      "id_equipment": "1",
+      "prix_location": "200",
+      "intitulé_Objectif": "Boucliers renforcés"
+    },
+    {
+      "id_equipment": "2",
+      "prix_location": "150",
+      "intitulé_Objectif": "Arcs longs et flèches"
+    },
+    {
+      "id_equipment": "3",
+      "prix_location": "300",
+      "intitulé_Objectif": "Casques à cornes"
+    },
+    {
+      "id_equipment": "4",
+      "prix_location": "400",
+      "intitulé_Objectif": "Armures en cuir bouilli"
+    },
+    {
+      "id_equipment": "5",
+      "prix_location": "500",
+      "intitulé_Objectif": "Épées forgées"
+    },
+    {
+      "id_equipment": "6",
+      "prix_location": "600",
+      "intitulé_Objectif": "Haches de guerre"
+    },
+    {
+      "id_equipment": "7",
+      "prix_location": "100",
+      "intitulé_Objectif": "Rations de nourriture"
+    },
+    {
+      "id_equipment": "8",
+      "prix_location": "250",
+      "intitulé_Objectif": "Cartes maritimes"
+    }
+  ],
+  "Transport": [
+    {
+      "id_transport": "1",
+      "nom_transport": "Karvi",
+      "prix_location": "500"
+    },
+    {
+      "id_transport": "2",
+      "nom_transport": "Færing",
+      "prix_location": "300"
+    },
+    {
+      "id_transport": "3",
+      "nom_transport": "Snekkja",
+      "prix_location": "1200"
+    },
+    {
+      "id_transport": "4",
+      "nom_transport": "Skeid",
+      "prix_location": "2500"
+    },
+    {
+      "id_transport": "5",
+      "nom_transport": "Drakkar",
+      "prix_location": "5000"
+    },
+    {
+      "id_transport": "6",
+      "nom_transport": "Knarr",
+      "prix_location": "3000"
+    }
+  ],
+  "Pays": [
+    {
+      "id_pays": "1",
+      "nom": "France"
+    },
+    {
+      "id_pays": "2",
+      "nom": "Angleterre"
+    },
+    {
+      "id_pays": "3",
+      "nom": "Danemark"
+    }
+  ],
+  "Destination": [
+    {
+      "id_Lieu": "1",
+      "nom_destination": "Monastère de Saint-Martin",
+      "difficulté": "facile",
+      "description": "Un monastère riche en objets sacrés et en provisions",
+      "id_pays": "mais faiblement défendu."
+    },
+    {
+      "id_Lieu": "2",
+      "nom_destination": "Château de Rouen",
+      "difficulté": "moyen",
+      "description": "Un château fortifié avec des réserves importantes",
+      "id_pays": "mais une garnison vigilante."
+    },
+    {
+      "id_Lieu": "3",
+      "nom_destination": "Village de Bayeux",
+      "difficulté": "facile",
+      "description": "Un petit village côtier avec des ressources limitées",
+      "id_pays": "mais facile à piller."
+    },
+    {
+      "id_Lieu": "4",
+      "nom_destination": "Abbaye de Jumièges",
+      "difficulté": "difficile",
+      "description": "Une abbaye fortifiée avec des trésors religieux",
+      "id_pays": "mais bien défendue par des moines guerriers."
+    },
+    {
+      "id_Lieu": "5",
+      "nom_destination": "Village de Lindisfarne",
+      "difficulté": "facile",
+      "description": "Un village monastique isolé avec des richesses sacrées",
+      "id_pays": "mais peu de défenses."
+    },
+    {
+      "id_Lieu": "6",
+      "nom_destination": "Forteresse de York",
+      "difficulté": "difficile",
+      "description": "Une forteresse anglaise bien défendue",
+      "id_pays": "mais regorgeant de trésors et de provisions."
+    },
+    {
+      "id_Lieu": "7",
+      "nom_destination": "Côte du Kent",
+      "difficulté": "moyen",
+      "description": "Une côte riche en petits villages et en navires marchands",
+      "id_pays": "mais avec des milices locales."
+    },
+    {
+      "id_Lieu": "8",
+      "nom_destination": "Monastère de Whitby",
+      "difficulté": "moyen",
+      "description": "Un monastère en hauteur avec des objets précieux",
+      "id_pays": "mais des défenses naturelles."
+    },
+    {
+      "id_Lieu": "9",
+      "nom_destination": "Village de Hedeby",
+      "difficulté": "facile",
+      "description": "Un village commerçant prospère",
+      "id_pays": "mais peu défendu en dehors des saisons de commerce."
+    },
+    {
+      "id_Lieu": "10",
+      "nom_destination": "Forteresse de Trelleborg",
+      "difficulté": "difficile",
+      "description": "Une forteresse circulaire bien défendue",
+      "id_pays": "mais avec des réserves importantes."
+    },
+    {
+      "id_Lieu": "11",
+      "nom_destination": "Côte de Jutland",
+      "difficulté": "moyen",
+      "description": "Une côte parsemée de petits villages et de navires de pêche",
+      "id_pays": "mais avec des raids fréquents."
+    },
+    {
+      "id_Lieu": "12",
+      "nom_destination": "Temple d\\'Uppsala",
+      "difficulté": "légendaire",
+      "description": "Un temple sacré regorgeant d\\'offrandes et de trésors",
+      "id_pays": "mais protégé par des guerriers fanatiques."
+    }
+  ],
+    "raids": [
         {
-            "id_jarl": "1",
-            "cranes": "10",
-            "golds": "500",
-            "nom_Jarl": "Ragnar Lothbrok"
+        "id_raid": 1,
+        "id_jarl": 1,
+        "id_Lieu": 1,
+        "pays": "France",
+        "difficulté": "facile",
+        "gain": "moyen",
+        "description": "Un monastère riche en objets sacrés et en provisions, mais faiblement défendu.",
+        "date": "2025-02-06T08:00:00",
+        "is_secured": false
         },
         {
-            "id_jarl": "2",
-            "cranes": "8",
-            "golds": "300",
-            "nom_Jarl": "Bjorn Côtes-de-Fer"
+        "id_raid": 2,
+        "id_jarl": 2,
+        "id_Lieu": 2,
+        "difficulté": "moyen",
+        "gain": "conséquent",
+        "description": "Un château fortifié avec des réserves importantes, mais une garnison vigilante.",
+        "date": "2025-02-07T09:30:00",
+        "is_secured": true
         },
         {
-            "id_jarl": "3",
-            "cranes": "12",
-            "golds": "700",
-            "nom_Jarl": "Ivar le Désossé"
+        "id_raid": 3,
+        "id_jarl": 3,
+        "id_Lieu": 5,
+        "difficulté": "facile",
+        "gain": "moyen",
+        "description": "Un village monastique isolé avec des richesses sacrées, mais peu de défenses.",
+        "date": "2025-02-08T07:15:00",
+        "is_secured": false
         },
         {
-            "id_jarl": "4",
-            "cranes": "7",
-            "golds": "400",
-            "nom_Jarl": "Harald Belle-Crin"
+        "id_raid": 4,
+        "id_jarl": 4,
+        "id_Lieu": 6,
+        "difficulté": "difficile",
+        "gain": "conséquent",
+        "description": "Une forteresse anglaise bien défendue, mais regorgeant de trésors et de provisions.",
+        "date": "2025-02-09T10:00:00",
+        "is_secured": true
         },
         {
-            "id_jarl": "5",
-            "cranes": "15",
-            "golds": "1000",
-            "nom_Jarl": "Sigurd Serpent-Œil"
+        "id_raid": 5,
+        "id_jarl": 5,
+        "id_Lieu": 12,
+        "difficulté": "légendaire",
+        "gain": "royale",
+        "description": "Un temple sacré regorgeant d'offrandes et de trésors, mais protégé par des guerriers fanatiques.",
+        "date": "2025-02-10T12:45:00",
+        "is_secured": false
         }
     ],
-    "Equipement": [
-        {
-            "id_equipment": "1",
-            "prix_location": "200",
-            "intitulé_Objectif": "Boucliers renforcés"
-        },
-        {
-            "id_equipment": "2",
-            "prix_location": "150",
-            "intitulé_Objectif": "Arcs longs et flèches"
-        },
-        {
-            "id_equipment": "3",
-            "prix_location": "300",
-            "intitulé_Objectif": "Casques à cornes"
-        },
-        {
-            "id_equipment": "4",
-            "prix_location": "400",
-            "intitulé_Objectif": "Armures en cuir bouilli"
-        },
-        {
-            "id_equipment": "5",
-            "prix_location": "500",
-            "intitulé_Objectif": "Épées forgées"
-        },
-        {
-            "id_equipment": "6",
-            "prix_location": "600",
-            "intitulé_Objectif": "Haches de guerre"
-        },
-        {
-            "id_equipment": "7",
-            "prix_location": "100",
-            "intitulé_Objectif": "Rations de nourriture"
-        },
-        {
-            "id_equipment": "8",
-            "prix_location": "250",
-            "intitulé_Objectif": "Cartes maritimes"
-        }
-    ],
-    "Transport": [
-        {
-            "id_transport": "1",
-            "nom_transport": "Karvi",
-            "prix_location": "500"
-        },
-        {
-            "id_transport": "2",
-            "nom_transport": "Færing",
-            "prix_location": "300"
-        },
-        {
-            "id_transport": "3",
-            "nom_transport": "Snekkja",
-            "prix_location": "1200"
-        },
-        {
-            "id_transport": "4",
-            "nom_transport": "Skeid",
-            "prix_location": "2500"
-        },
-        {
-            "id_transport": "5",
-            "nom_transport": "Drakkar",
-            "prix_location": "5000"
-        },
-        {
-            "id_transport": "6",
-            "nom_transport": "Knarr",
-            "prix_location": "3000"
-        }
-    ],
-    "Pays": [
-        {
-            "id_pays": "1",
-            "nom": "France"
-        },
-        {
-            "id_pays": "2",
-            "nom": "Angleterre"
-        },
-        {
-            "id_pays": "3",
-            "nom": "Danemark"
-        }
-    ],
-    "Destination": [
-        {
-            "id_Lieu": "1",
-            "nom_destination": "Monastère de Saint-Martin",
-            "difficulté": "facile",
-            "description": "Un monastère riche en objets sacrés et en provisions",
-            "id_pays": "mais faiblement défendu."
-        },
-        {
-            "id_Lieu": "2",
-            "nom_destination": "Château de Rouen",
-            "difficulté": "moyen",
-            "description": "Un château fortifié avec des réserves importantes",
-            "id_pays": "mais une garnison vigilante."
-        },
-        {
-            "id_Lieu": "3",
-            "nom_destination": "Village de Bayeux",
-            "difficulté": "facile",
-            "description": "Un petit village côtier avec des ressources limitées",
-            "id_pays": "mais facile à piller."
-        },
-        {
-            "id_Lieu": "4",
-            "nom_destination": "Abbaye de Jumièges",
-            "difficulté": "difficile",
-            "description": "Une abbaye fortifiée avec des trésors religieux",
-            "id_pays": "mais bien défendue par des moines guerriers."
-        },
-        {
-            "id_Lieu": "5",
-            "nom_destination": "Village de Lindisfarne",
-            "difficulté": "facile",
-            "description": "Un village monastique isolé avec des richesses sacrées",
-            "id_pays": "mais peu de défenses."
-        },
-        {
-            "id_Lieu": "6",
-            "nom_destination": "Forteresse de York",
-            "difficulté": "difficile",
-            "description": "Une forteresse anglaise bien défendue",
-            "id_pays": "mais regorgeant de trésors et de provisions."
-        },
-        {
-            "id_Lieu": "7",
-            "nom_destination": "Côte du Kent",
-            "difficulté": "moyen",
-            "description": "Une côte riche en petits villages et en navires marchands",
-            "id_pays": "mais avec des milices locales."
-        },
-        {
-            "id_Lieu": "8",
-            "nom_destination": "Monastère de Whitby",
-            "difficulté": "moyen",
-            "description": "Un monastère en hauteur avec des objets précieux",
-            "id_pays": "mais des défenses naturelles."
-        },
-        {
-            "id_Lieu": "9",
-            "nom_destination": "Village de Hedeby",
-            "difficulté": "facile",
-            "description": "Un village commerçant prospère",
-            "id_pays": "mais peu défendu en dehors des saisons de commerce."
-        },
-        {
-            "id_Lieu": "10",
-            "nom_destination": "Forteresse de Trelleborg",
-            "difficulté": "difficile",
-            "description": "Une forteresse circulaire bien défendue",
-            "id_pays": "mais avec des réserves importantes."
-        },
-        {
-            "id_Lieu": "11",
-            "nom_destination": "Côte de Jutland",
-            "difficulté": "moyen",
-            "description": "Une côte parsemée de petits villages et de navires de pêche",
-            "id_pays": "mais avec des raids fréquents."
-        },
-        {
-            "id_Lieu": "12",
-            "nom_destination": "Temple d\\'Uppsala",
-            "difficulté": "légendaire",
-            "description": "Un temple sacré regorgeant d\\'offrandes et de trésors",
-            "id_pays": "mais protégé par des guerriers fanatiques."
-        }
-    ],
-    "raid": [
-        {
-            "id_raid": "1",
-            "id_jarl": "1",
-            "id_Lieu": "1",
-            "titre": "Raid sur Saint-Martin",
-            "date": "2025-02-06 12:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "2",
-            "id_jarl": "2",
-            "id_Lieu": "2",
-            "titre": "Siège de Rouen",
-            "date": "2025-02-07 14:30:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "3",
-            "id_jarl": "3",
-            "id_Lieu": "3",
-            "titre": "Pillage de Bayeux",
-            "date": "2025-02-08 09:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "4",
-            "id_jarl": "4",
-            "id_Lieu": "4",
-            "titre": "Attaque sur Jumièges",
-            "date": "2025-02-09 18:45:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "5",
-            "id_jarl": "5",
-            "id_Lieu": "5",
-            "titre": "Lindisfarne en flammes",
-            "date": "2025-02-10 11:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "6",
-            "id_jarl": "1",
-            "id_Lieu": "6",
-            "titre": "Assaut sur York",
-            "date": "2025-02-11 20:15:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "7",
-            "id_jarl": "2",
-            "id_Lieu": "7",
-            "titre": "Surprise au Kent",
-            "date": "2025-02-12 15:30:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "8",
-            "id_jarl": "3",
-            "id_Lieu": "8",
-            "titre": "Vol des reliques de Whitby",
-            "date": "2025-02-13 08:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "9",
-            "id_jarl": "4",
-            "id_Lieu": "9",
-            "titre": "Commerce forcé à Hedeby",
-            "date": "2025-02-14 10:30:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "10",
-            "id_jarl": "5",
-            "id_Lieu": "10",
-            "titre": "Bataille de Trelleborg",
-            "date": "2025-02-15 19:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "11",
-            "id_jarl": "1",
-            "id_Lieu": "11",
-            "titre": "Raid sur Jutland",
-            "date": "2025-02-16 16:00:00",
-            "is_secured": "false"
-        },
-        {
-            "id_raid": "12",
-            "id_jarl": "2",
-            "id_Lieu": "12",
-            "titre": "Offrande à Uppsala",
-            "date": "2025-02-17 21:30:00",
-            "is_secured": "false"
-        }
-    ],
-    "Location": [
-        {
-            "id_location": "1",
-            "id_jarl": "1",
-            "id_raid": "1",
-            "prix_location": "1000"
-        },
-        {
-            "id_location": "2",
-            "id_jarl": "2",
-            "id_raid": "2",
-            "prix_location": "1500"
-        },
-        {
-            "id_location": "3",
-            "id_jarl": "3",
-            "id_raid": "3",
-            "prix_location": "1200"
-        },
-        {
-            "id_location": "4",
-            "id_jarl": "4",
-            "id_raid": "4",
-            "prix_location": "1800"
-        },
-        {
-            "id_location": "5",
-            "id_jarl": "5",
-            "id_raid": "5",
-            "prix_location": "2000"
-        },
-        {
-            "id_location": "6",
-            "id_jarl": "1",
-            "id_raid": "6",
-            "prix_location": "2500"
-        },
-        {
-            "id_location": "7",
-            "id_jarl": "2",
-            "id_raid": "7",
-            "prix_location": "1300"
-        },
-        {
-            "id_location": "8",
-            "id_jarl": "3",
-            "id_raid": "8",
-            "prix_location": "1700"
-        },
-        {
-            "id_location": "9",
-            "id_jarl": "4",
-            "id_raid": "9",
-            "prix_location": "1400"
-        },
-        {
-            "id_location": "10",
-            "id_jarl": "5",
-            "id_raid": "10",
-            "prix_location": "2200"
-        },
-        {
-            "id_location": "11",
-            "id_jarl": "1",
-            "id_raid": "11",
-            "prix_location": "1600"
-        },
-        {
-            "id_location": "12",
-            "id_jarl": "2",
-            "id_raid": "12",
-            "prix_location": "3000"
-        }
-    ],
-    "Recrutement": [
-        {
-            "id_recrutement": "1",
-            "id_raid": "1",
-            "id_jarl": "1",
-            "prix_location": "800"
-        },
-        {
-            "id_recrutement": "2",
-            "id_raid": "2",
-            "id_jarl": "2",
-            "prix_location": "1000"
-        },
-        {
-            "id_recrutement": "3",
-            "id_raid": "3",
-            "id_jarl": "3",
-            "prix_location": "750"
-        },
-        {
-            "id_recrutement": "4",
-            "id_raid": "4",
-            "id_jarl": "4",
-            "prix_location": "1200"
-        },
-        {
-            "id_recrutement": "5",
-            "id_raid": "5",
-            "id_jarl": "5",
-            "prix_location": "1500"
-        },
-        {
-            "id_recrutement": "6",
-            "id_raid": "6",
-            "id_jarl": "1",
-            "prix_location": "2000"
-        },
-        {
-            "id_recrutement": "7",
-            "id_raid": "7",
-            "id_jarl": "2",
-            "prix_location": "900"
-        },
-        {
-            "id_recrutement": "8",
-            "id_raid": "8",
-            "id_jarl": "3",
-            "prix_location": "1100"
-        },
-        {
-            "id_recrutement": "9",
-            "id_raid": "9",
-            "id_jarl": "4",
-            "prix_location": "1300"
-        },
-        {
-            "id_recrutement": "10",
-            "id_raid": "10",
-            "id_jarl": "5",
-            "prix_location": "1700"
-        },
-        {
-            "id_recrutement": "11",
-            "id_raid": "11",
-            "id_jarl": "1",
-            "prix_location": "1400"
-        },
-        {
-            "id_recrutement": "12",
-            "id_raid": "12",
-            "id_jarl": "2",
-            "prix_location": "2500"
-        }
-    ],
-    "Mercenaires": [
-        {
-        "id_mercenaire": 1,
-        "id_recrutement": 12,
-        "nom_mercenaire": "Ragnar Brise-Crâne",
-        "age": 34,
-        "strength": 85,
-        "intelligence": 70,
-        "agilité": 75,
-        "taille": 185,
-        "poids": 95,
-        "sexe": true,
-        "arme": "Hache à double tranchant",
-        "specialité": "Combat en duel",
-        "cout": 850
-        },
-        {
-        "id_mercenaire": 2,
-        "id_recrutement": 10,
-        "nom_mercenaire": "Bjorn le Colosse",
-        "age": 40,
-        "strength": 95,
-        "intelligence": 60,
-        "agilité": 55,
-        "taille": 200,
-        "poids": 120,
-        "sexe": true,
-        "arme": "Masse d’armes",
-        "specialité": "Percée des lignes ennemies",
-        "cout": 820
-        },
-        {
-        "id_mercenaire": 3,
-        "id_recrutement": 8,
-        "nom_mercenaire": "Astrid la Louve",
-        "age": 30,
-        "strength": 70,
-        "intelligence": 85,
-        "agilité": 90,
-        "taille": 178,
-        "poids": 75,
-        "sexe": false,
-        "arme": "Lame courte et bouclier",
-        "specialité": "Embuscades et tactiques furtives",
-        "cout": 800
-        },
-        {
-        "id_mercenaire": 4,
-        "id_recrutement": 12,
-        "nom_mercenaire": "Erik Croc-de-Fer",
-        "age": 38,
-        "strength": 80,
-        "intelligence": 75,
-        "agilité": 70,
-        "taille": 183,
-        "poids": 90,
-        "sexe": true,
-        "arme": "Épée longue",
-        "specialité": "Batailles rangées",
-        "cout": 830
-        },
-        {
-        "id_mercenaire": 5,
-        "id_recrutement": 10,
-        "nom_mercenaire": "Gunnar l'Impassible",
-        "age": 36,
-        "strength": 85,
-        "intelligence": 65,
-        "agilité": 65,
-        "taille": 188,
-        "poids": 98,
-        "sexe": true,
-        "arme": "Hache à une main et bouclier",
-        "specialité": "Défense des positions",
-        "cout": 840
-        },
-        {
-        "id_mercenaire": 6,
-        "id_recrutement": 5,
-        "nom_mercenaire": "Freya la Furieuse",
-        "age": 28,
-        "strength": 75,
-        "intelligence": 80,
-        "agilité": 85,
-        "taille": 172,
-        "poids": 70,
-        "sexe": false,
-        "arme": "Deux dagues",
-        "specialité": "Assassinat et espionnage",
-        "cout": 780
-        },
-        {
-        "id_mercenaire": 7,
-        "id_recrutement": 10,
-        "nom_mercenaire": "Thorvald le Tonnerre",
-        "age": 45,
-        "strength": 92,
-        "intelligence": 55,
-        "agilité": 60,
-        "taille": 195,
-        "poids": 110,
-        "sexe": true,
-        "arme": "Marteau de guerre",
-        "specialité": "Combat en mêlée",
-        "cout": 860
-        },
-        {
-        "id_mercenaire": 8,
-        "id_recrutement": 12,
-        "nom_mercenaire": "Hilda Brise-Lames",
-        "age": 32,
-        "strength": 70,
-        "intelligence": 85,
-        "agilité": 90,
-        "taille": 175,
-        "poids": 68,
-        "sexe": false,
-        "arme": "Lance",
-        "specialité": "Combats navals",
-        "cout": 820
-        },
-        {
-        "id_mercenaire": 9,
-        "id_recrutement": 7,
-        "nom_mercenaire": "Sigurd Œil-de-Glace",
-        "age": 33,
-        "strength": 80,
-        "intelligence": 80,
-        "agilité": 78,
-        "taille": 180,
-        "poids": 85,
-        "sexe": true,
-        "arme": "Arc long",
-        "specialité": "Attaque à distance",
-        "cout": 830
-        },
-        {
-        "id_mercenaire": 10,
-        "id_recrutement": 9,
-        "nom_mercenaire": "Ulf le Loup Noir",
-        "age": 29,
-        "strength": 77,
-        "intelligence": 75,
-        "agilité": 88,
-        "taille": 179,
-        "poids": 82,
-        "sexe": true,
-        "arme": "Hache de jet",
-        "specialité": "Tactiques de guérilla",
-        "cout": 810
-        }
-    ],
-    "Compagnon": [
-        {
-            "id_compagnie": "1",
-            "id_mercenaire": "1",
-            "prix_location": "500",
-            "nom_compagnie": "Les Loups du Nord"
-        },
-        {
-            "id_compagnie": "2",
-            "id_mercenaire": "1",
-            "prix_location": "450",
-            "nom_compagnie": "Les Haches Sanglantes"
-        },
-        {
-            "id_compagnie": "3",
-            "id_mercenaire": "1",
-            "prix_location": "480",
-            "nom_compagnie": "Les Guerriers de l’Orage"
-        },
-        {
-            "id_compagnie": "4",
-            "id_mercenaire": "2",
-            "prix_location": "520",
-            "nom_compagnie": "Les Géants d’Acier"
-        },
-        {
-            "id_compagnie": "5",
-            "id_mercenaire": "2",
-            "prix_location": "510",
-            "nom_compagnie": "Les Briseurs de Remparts"
-        },
-        {
-            "id_compagnie": "6",
-            "id_mercenaire": "2",
-            "prix_location": "500",
-            "nom_compagnie": "Les Ours de Fer"
-        },
-        {
-            "id_compagnie": "7",
-            "id_mercenaire": "3",
-            "prix_location": "470",
-            "nom_compagnie": "Les Ombres du Crépuscule"
-        },
-        {
-            "id_compagnie": "8",
-            "id_mercenaire": "3",
-            "prix_location": "460",
-            "nom_compagnie": "Les Loups Silencieux"
-        },
-        {
-            "id_compagnie": "9",
-            "id_mercenaire": "3",
-            "prix_location": "455",
-            "nom_compagnie": "Les Lames de la Nuit"
-        },
-        {
-            "id_compagnie": "10",
-            "id_mercenaire": "4",
-            "prix_location": "495",
-            "nom_compagnie": "Les Légionnaires du Nord"
-        },
-        {
-            "id_compagnie": "11",
-            "id_mercenaire": "4",
-            "prix_location": "490",
-            "nom_compagnie": "Les Lames Runiques"
-        },
-        {
-            "id_compagnie": "12",
-            "id_mercenaire": "4",
-            "prix_location": "500",
-            "nom_compagnie": "Les Fils du Dragon"
-        },
-        {
-            "id_compagnie": "13",
-            "id_mercenaire": "5",
-            "prix_location": "510",
-            "nom_compagnie": "Les Gardes de la Faille"
-        },
-        {
-            "id_compagnie": "14",
-            "id_mercenaire": "5",
-            "prix_location": "505",
-            "nom_compagnie": "Les Défenseurs du Bastion"
-        },
-        {
-            "id_compagnie": "15",
-            "id_mercenaire": "5",
-            "prix_location": "520",
-            "nom_compagnie": "Les Remparts Vivants"
-        },
-        {
-            "id_compagnie": "16",
-            "id_mercenaire": "6",
-            "prix_location": "460",
-            "nom_compagnie": "Les Vipères de Minuit"
-        },
-        {
-            "id_compagnie": "17",
-            "id_mercenaire": "6",
-            "prix_location": "470",
-            "nom_compagnie": "Les Furies Silencieuses"
-        },
-        {
-            "id_compagnie": "18",
-            "id_mercenaire": "6",
-            "prix_location": "465",
-            "nom_compagnie": "Les Dagues de l’Ombre"
-        },
-        {
-            "id_compagnie": "19",
-            "id_mercenaire": "7",
-            "prix_location": "530",
-            "nom_compagnie": "Les Marteaux du Destin"
-        },
-        {
-            "id_compagnie": "20",
-            "id_mercenaire": "7",
-            "prix_location": "525",
-            "nom_compagnie": "Les Enclumes Guerrières"
-        },
-        {
-            "id_compagnie": "21",
-            "id_mercenaire": "7",
-            "prix_location": "520",
-            "nom_compagnie": "Les Tonnerres d’Asgard"
-        },
-        {
-            "id_compagnie": "22",
-            "id_mercenaire": "8",
-            "prix_location": "480",
-            "nom_compagnie": "Les Serpents de la Mer"
-        },
-        {
-            "id_compagnie": "23",
-            "id_mercenaire": "8",
-            "prix_location": "475",
-            "nom_compagnie": "Les Lames du Fjord"
-        },
-        {
-            "id_compagnie": "24",
-            "id_mercenaire": "8",
-            "prix_location": "470",
-            "nom_compagnie": "Les Tridents d’Odin"
-        },
-        {
-            "id_compagnie": "25",
-            "id_mercenaire": "9",
-            "prix_location": "490",
-            "nom_compagnie": "Les Corbeaux de la Brume"
-        },
-        {
-            "id_compagnie": "26",
-            "id_mercenaire": "9",
-            "prix_location": "485",
-            "nom_compagnie": "Les Flèches Silencieuses"
-        },
-        {
-            "id_compagnie": "27",
-            "id_mercenaire": "9",
-            "prix_location": "480",
-            "nom_compagnie": "Les Veilleurs de l’Horizon"
-        },
-        {
-            "id_compagnie": "28",
-            "id_mercenaire": "10",
-            "prix_location": "500",
-            "nom_compagnie": "Les Chasseurs de la Nuit"
-        },
-        {
-            "id_compagnie": "29",
-            "id_mercenaire": "10",
-            "prix_location": "495",
-            "nom_compagnie": "Les Loups de Minuit"
-        },
-        {
-            "id_compagnie": "30",
-            "id_mercenaire": "10",
-            "prix_location": "490",
-            "nom_compagnie": "Les Ombres Sauvages"
-        }
-    ],
-    "Fournitures": [
-        {
-            "id_equipment": "1",
-            "id_location": "1"
-        },
-        {
-            "id_equipment": "2",
-            "id_location": "1"
-        },
-        {
-            "id_equipment": "3",
-            "id_location": "2"
-        },
-        {
-            "id_equipment": "4",
-            "id_location": "2"
-        },
-        {
-            "id_equipment": "5",
-            "id_location": "3"
-        },
-        {
-            "id_equipment": "6",
-            "id_location": "3"
-        },
-        {
-            "id_equipment": "7",
-            "id_location": "4"
-        },
-        {
-            "id_equipment": "8",
-            "id_location": "4"
-        },
-        {
-            "id_equipment": "2",
-            "id_location": "5"
-        },
-        {
-            "id_equipment": "3",
-            "id_location": "6"
-        },
-        {
-            "id_equipment": "4",
-            "id_location": "7"
-        },
-        {
-            "id_equipment": "5",
-            "id_location": "8"
-        },
-        {
-            "id_equipment": "6",
-            "id_location": "9"
-        },
-        {
-            "id_equipment": "1",
-            "id_location": "10"
-        },
-        {
-            "id_equipment": "7",
-            "id_location": "11"
-        },
-        {
-            "id_equipment": "8",
-            "id_location": "12"
-        }
-    ]
+  
+  "Location": [
+    {
+      "id_location": "1",
+      "id_jarl": "1",
+      "id_raid": "1",
+      "prix_location": "1000"
+    },
+    {
+      "id_location": "2",
+      "id_jarl": "2",
+      "id_raid": "2",
+      "prix_location": "1500"
+    },
+    {
+      "id_location": "3",
+      "id_jarl": "3",
+      "id_raid": "3",
+      "prix_location": "1200"
+    },
+    {
+      "id_location": "4",
+      "id_jarl": "4",
+      "id_raid": "4",
+      "prix_location": "1800"
+    },
+    {
+      "id_location": "5",
+      "id_jarl": "5",
+      "id_raid": "5",
+      "prix_location": "2000"
+    },
+    {
+      "id_location": "6",
+      "id_jarl": "1",
+      "id_raid": "6",
+      "prix_location": "2500"
+    },
+    {
+      "id_location": "7",
+      "id_jarl": "2",
+      "id_raid": "7",
+      "prix_location": "1300"
+    },
+    {
+      "id_location": "8",
+      "id_jarl": "3",
+      "id_raid": "8",
+      "prix_location": "1700"
+    },
+    {
+      "id_location": "9",
+      "id_jarl": "4",
+      "id_raid": "9",
+      "prix_location": "1400"
+    },
+    {
+      "id_location": "10",
+      "id_jarl": "5",
+      "id_raid": "10",
+      "prix_location": "2200"
+    },
+    {
+      "id_location": "11",
+      "id_jarl": "1",
+      "id_raid": "11",
+      "prix_location": "1600"
+    },
+    {
+      "id_location": "12",
+      "id_jarl": "2",
+      "id_raid": "12",
+      "prix_location": "3000"
+    }
+  ],
+  "Recrutement": [
+    {
+      "id_recrutement": "1",
+      "id_raid": "1",
+      "id_jarl": "1",
+      "prix_location": "800"
+    },
+    {
+      "id_recrutement": "2",
+      "id_raid": "2",
+      "id_jarl": "2",
+      "prix_location": "1000"
+    },
+    {
+      "id_recrutement": "3",
+      "id_raid": "3",
+      "id_jarl": "3",
+      "prix_location": "750"
+    },
+    {
+      "id_recrutement": "4",
+      "id_raid": "4",
+      "id_jarl": "4",
+      "prix_location": "1200"
+    },
+    {
+      "id_recrutement": "5",
+      "id_raid": "5",
+      "id_jarl": "5",
+      "prix_location": "1500"
+    },
+    {
+      "id_recrutement": "6",
+      "id_raid": "6",
+      "id_jarl": "1",
+      "prix_location": "2000"
+    },
+    {
+      "id_recrutement": "7",
+      "id_raid": "7",
+      "id_jarl": "2",
+      "prix_location": "900"
+    },
+    {
+      "id_recrutement": "8",
+      "id_raid": "8",
+      "id_jarl": "3",
+      "prix_location": "1100"
+    },
+    {
+      "id_recrutement": "9",
+      "id_raid": "9",
+      "id_jarl": "4",
+      "prix_location": "1300"
+    },
+    {
+      "id_recrutement": "10",
+      "id_raid": "10",
+      "id_jarl": "5",
+      "prix_location": "1700"
+    },
+    {
+      "id_recrutement": "11",
+      "id_raid": "11",
+      "id_jarl": "1",
+      "prix_location": "1400"
+    },
+    {
+      "id_recrutement": "12",
+      "id_raid": "12",
+      "id_jarl": "2",
+      "prix_location": "2500"
+    }
+  ],
+  "Mercenaires": [
+    {
+      "id_mercenaire": 1,
+      "id_recrutement": 12,
+      "nom_mercenaire": "Ragnar Brise-Crâne",
+      "age": 34,
+      "strength": 85,
+      "intelligence": 70,
+      "agilité": 75,
+      "taille": 185,
+      "poids": 95,
+      "sexe": true,
+      "arme": "Hache à double tranchant",
+      "specialité": "Combat en duel",
+      "cout": 850
+    },
+    {
+      "id_mercenaire": 2,
+      "id_recrutement": 10,
+      "nom_mercenaire": "Bjorn le Colosse",
+      "age": 40,
+      "strength": 95,
+      "intelligence": 60,
+      "agilité": 55,
+      "taille": 200,
+      "poids": 120,
+      "sexe": true,
+      "arme": "Masse d’armes",
+      "specialité": "Percée des lignes ennemies",
+      "cout": 820
+    },
+    {
+      "id_mercenaire": 3,
+      "id_recrutement": 8,
+      "nom_mercenaire": "Astrid la Louve",
+      "age": 30,
+      "strength": 70,
+      "intelligence": 85,
+      "agilité": 90,
+      "taille": 178,
+      "poids": 75,
+      "sexe": false,
+      "arme": "Lame courte et bouclier",
+      "specialité": "Embuscades et tactiques furtives",
+      "cout": 800
+    },
+    {
+      "id_mercenaire": 4,
+      "id_recrutement": 12,
+      "nom_mercenaire": "Erik Croc-de-Fer",
+      "age": 38,
+      "strength": 80,
+      "intelligence": 75,
+      "agilité": 70,
+      "taille": 183,
+      "poids": 90,
+      "sexe": true,
+      "arme": "Épée longue",
+      "specialité": "Batailles rangées",
+      "cout": 830
+    },
+    {
+      "id_mercenaire": 5,
+      "id_recrutement": 10,
+      "nom_mercenaire": "Gunnar l'Impassible",
+      "age": 36,
+      "strength": 85,
+      "intelligence": 65,
+      "agilité": 65,
+      "taille": 188,
+      "poids": 98,
+      "sexe": true,
+      "arme": "Hache à une main et bouclier",
+      "specialité": "Défense des positions",
+      "cout": 840
+    },
+    {
+      "id_mercenaire": 6,
+      "id_recrutement": 5,
+      "nom_mercenaire": "Freya la Furieuse",
+      "age": 28,
+      "strength": 75,
+      "intelligence": 80,
+      "agilité": 85,
+      "taille": 172,
+      "poids": 70,
+      "sexe": false,
+      "arme": "Deux dagues",
+      "specialité": "Assassinat et espionnage",
+      "cout": 780
+    },
+    {
+      "id_mercenaire": 7,
+      "id_recrutement": 10,
+      "nom_mercenaire": "Thorvald le Tonnerre",
+      "age": 45,
+      "strength": 92,
+      "intelligence": 55,
+      "agilité": 60,
+      "taille": 195,
+      "poids": 110,
+      "sexe": true,
+      "arme": "Marteau de guerre",
+      "specialité": "Combat en mêlée",
+      "cout": 860
+    },
+    {
+      "id_mercenaire": 8,
+      "id_recrutement": 12,
+      "nom_mercenaire": "Hilda Brise-Lames",
+      "age": 32,
+      "strength": 70,
+      "intelligence": 85,
+      "agilité": 90,
+      "taille": 175,
+      "poids": 68,
+      "sexe": false,
+      "arme": "Lance",
+      "specialité": "Combats navals",
+      "cout": 820
+    },
+    {
+      "id_mercenaire": 9,
+      "id_recrutement": 7,
+      "nom_mercenaire": "Sigurd Œil-de-Glace",
+      "age": 33,
+      "strength": 80,
+      "intelligence": 80,
+      "agilité": 78,
+      "taille": 180,
+      "poids": 85,
+      "sexe": true,
+      "arme": "Arc long",
+      "specialité": "Attaque à distance",
+      "cout": 830
+    },
+    {
+      "id_mercenaire": 10,
+      "id_recrutement": 9,
+      "nom_mercenaire": "Ulf le Loup Noir",
+      "age": 29,
+      "strength": 77,
+      "intelligence": 75,
+      "agilité": 88,
+      "taille": 179,
+      "poids": 82,
+      "sexe": true,
+      "arme": "Hache de jet",
+      "specialité": "Tactiques de guérilla",
+      "cout": 810
+    }
+  ],
+  "Compagnon": [
+    {
+      "id_compagnie": "1",
+      "id_mercenaire": "1",
+      "prix_location": "500",
+      "nom_compagnie": "Les Loups du Nord"
+    },
+    {
+      "id_compagnie": "2",
+      "id_mercenaire": "1",
+      "prix_location": "450",
+      "nom_compagnie": "Les Haches Sanglantes"
+    },
+    {
+      "id_compagnie": "3",
+      "id_mercenaire": "1",
+      "prix_location": "480",
+      "nom_compagnie": "Les Guerriers de l’Orage"
+    },
+    {
+      "id_compagnie": "4",
+      "id_mercenaire": "2",
+      "prix_location": "520",
+      "nom_compagnie": "Les Géants d’Acier"
+    },
+    {
+      "id_compagnie": "5",
+      "id_mercenaire": "2",
+      "prix_location": "510",
+      "nom_compagnie": "Les Briseurs de Remparts"
+    },
+    {
+      "id_compagnie": "6",
+      "id_mercenaire": "2",
+      "prix_location": "500",
+      "nom_compagnie": "Les Ours de Fer"
+    },
+    {
+      "id_compagnie": "7",
+      "id_mercenaire": "3",
+      "prix_location": "470",
+      "nom_compagnie": "Les Ombres du Crépuscule"
+    },
+    {
+      "id_compagnie": "8",
+      "id_mercenaire": "3",
+      "prix_location": "460",
+      "nom_compagnie": "Les Loups Silencieux"
+    },
+    {
+      "id_compagnie": "9",
+      "id_mercenaire": "3",
+      "prix_location": "455",
+      "nom_compagnie": "Les Lames de la Nuit"
+    },
+    {
+      "id_compagnie": "10",
+      "id_mercenaire": "4",
+      "prix_location": "495",
+      "nom_compagnie": "Les Légionnaires du Nord"
+    },
+    {
+      "id_compagnie": "11",
+      "id_mercenaire": "4",
+      "prix_location": "490",
+      "nom_compagnie": "Les Lames Runiques"
+    },
+    {
+      "id_compagnie": "12",
+      "id_mercenaire": "4",
+      "prix_location": "500",
+      "nom_compagnie": "Les Fils du Dragon"
+    },
+    {
+      "id_compagnie": "13",
+      "id_mercenaire": "5",
+      "prix_location": "510",
+      "nom_compagnie": "Les Gardes de la Faille"
+    },
+    {
+      "id_compagnie": "14",
+      "id_mercenaire": "5",
+      "prix_location": "505",
+      "nom_compagnie": "Les Défenseurs du Bastion"
+    },
+    {
+      "id_compagnie": "15",
+      "id_mercenaire": "5",
+      "prix_location": "520",
+      "nom_compagnie": "Les Remparts Vivants"
+    },
+    {
+      "id_compagnie": "16",
+      "id_mercenaire": "6",
+      "prix_location": "460",
+      "nom_compagnie": "Les Vipères de Minuit"
+    },
+    {
+      "id_compagnie": "17",
+      "id_mercenaire": "6",
+      "prix_location": "470",
+      "nom_compagnie": "Les Furies Silencieuses"
+    },
+    {
+      "id_compagnie": "18",
+      "id_mercenaire": "6",
+      "prix_location": "465",
+      "nom_compagnie": "Les Dagues de l’Ombre"
+    },
+    {
+      "id_compagnie": "19",
+      "id_mercenaire": "7",
+      "prix_location": "530",
+      "nom_compagnie": "Les Marteaux du Destin"
+    },
+    {
+      "id_compagnie": "20",
+      "id_mercenaire": "7",
+      "prix_location": "525",
+      "nom_compagnie": "Les Enclumes Guerrières"
+    },
+    {
+      "id_compagnie": "21",
+      "id_mercenaire": "7",
+      "prix_location": "520",
+      "nom_compagnie": "Les Tonnerres d’Asgard"
+    },
+    {
+      "id_compagnie": "22",
+      "id_mercenaire": "8",
+      "prix_location": "480",
+      "nom_compagnie": "Les Serpents de la Mer"
+    },
+    {
+      "id_compagnie": "23",
+      "id_mercenaire": "8",
+      "prix_location": "475",
+      "nom_compagnie": "Les Lames du Fjord"
+    },
+    {
+      "id_compagnie": "24",
+      "id_mercenaire": "8",
+      "prix_location": "470",
+      "nom_compagnie": "Les Tridents d’Odin"
+    },
+    {
+      "id_compagnie": "25",
+      "id_mercenaire": "9",
+      "prix_location": "490",
+      "nom_compagnie": "Les Corbeaux de la Brume"
+    },
+    {
+      "id_compagnie": "26",
+      "id_mercenaire": "9",
+      "prix_location": "485",
+      "nom_compagnie": "Les Flèches Silencieuses"
+    },
+    {
+      "id_compagnie": "27",
+      "id_mercenaire": "9",
+      "prix_location": "480",
+      "nom_compagnie": "Les Veilleurs de l’Horizon"
+    },
+    {
+      "id_compagnie": "28",
+      "id_mercenaire": "10",
+      "prix_location": "500",
+      "nom_compagnie": "Les Chasseurs de la Nuit"
+    },
+    {
+      "id_compagnie": "29",
+      "id_mercenaire": "10",
+      "prix_location": "495",
+      "nom_compagnie": "Les Loups de Minuit"
+    },
+    {
+      "id_compagnie": "30",
+      "id_mercenaire": "10",
+      "prix_location": "490",
+      "nom_compagnie": "Les Ombres Sauvages"
+    }
+  ],
+  "Fournitures": [
+    {
+      "id_equipment": "1",
+      "id_location": "1"
+    },
+    {
+      "id_equipment": "2",
+      "id_location": "1"
+    },
+    {
+      "id_equipment": "3",
+      "id_location": "2"
+    },
+    {
+      "id_equipment": "4",
+      "id_location": "2"
+    },
+    {
+      "id_equipment": "5",
+      "id_location": "3"
+    },
+    {
+      "id_equipment": "6",
+      "id_location": "3"
+    },
+    {
+      "id_equipment": "7",
+      "id_location": "4"
+    },
+    {
+      "id_equipment": "8",
+      "id_location": "4"
+    },
+    {
+      "id_equipment": "2",
+      "id_location": "5"
+    },
+    {
+      "id_equipment": "3",
+      "id_location": "6"
+    },
+    {
+      "id_equipment": "4",
+      "id_location": "7"
+    },
+    {
+      "id_equipment": "5",
+      "id_location": "8"
+    },
+    {
+      "id_equipment": "6",
+      "id_location": "9"
+    },
+    {
+      "id_equipment": "1",
+      "id_location": "10"
+    },
+    {
+      "id_equipment": "7",
+      "id_location": "11"
+    },
+    {
+      "id_equipment": "8",
+      "id_location": "12"
+    }
+  ]
 }
