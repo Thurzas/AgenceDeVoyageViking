@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+
+  margin: 2rem 3.875rem;
+  ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+
+    li {
+      color: white;
+    }
+  }
+}
