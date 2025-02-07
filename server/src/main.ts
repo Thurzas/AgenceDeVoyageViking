@@ -9,12 +9,15 @@ type Database = typeof data;
 // is not required when starting the application
 import "../database/checkConnection";
 
+import path from "node:path";
 // Import the Express application from ./app
 import app from "./app";
 
 app.get("/api", (req, res) => {
   res.send("𓊝 The vikings are coming ! ⚔️🛡️🪓");
 });
+const cors = require("cors");
+app.use(cors());
 
 app.get("/api/mercenaires", (req, res) => {
   res.json(data.Mercenaires);
@@ -62,6 +65,19 @@ app.get("/api/fournitures", (req, res) => {
 
 app.get("/api/transportation", (req, res) => {
   res.json(data.transportations);
+});
+
+app.get("/api/images/:imageName", (req, res) => {
+  const { imageName } = req.params;
+  const imageDirectory = path.join(__dirname, "../public/assets/images/");
+
+  const imagePath = path.join(imageDirectory, imageName);
+  res.sendFile(imagePath, (err) => {
+    if (err) {
+      console.error("Erreur lors de l’envoi de l’image :", err);
+      res.status(404).send("Image non trouvée");
+    }
+  });
 });
 
 // Get the port from the environment variables

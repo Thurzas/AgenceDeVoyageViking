@@ -11,6 +11,8 @@ import NewRaid from "./pages/CreatNewRaid_01";
 import NewRaidOptions from "./pages/CreatNewRaid_02";
 import NewRaidAssurance from "./pages/CreatNewRaid_03";
 import NewRaidRecap from "./pages/CreatNewRaid_Recap";
+import MercoDetail from "./pages/MercoDetail";
+import MercoHistory from "./pages/MercoHistory";
 import RaidHistory from "./pages/RaidHistory";
 import RaidDetail from "./pages/raidDetail";
 
@@ -56,6 +58,14 @@ const router = createBrowserRouter([
   {
     path: "/new_raid_recap", // The root path
     element: <NewRaidRecap />, // Renders the App component for the home page
+  },
+  {
+    path: "/mercenaires", // The root path
+    element: <MercoHistory />, // Renders the App component for the home page
+  },
+  {
+    path: "/mercenaires/:id", // The root path
+    element: <MercoDetail />, // Renders the App component for the home page
   },
   // Try adding a new route! For example, "/about" with an About component
 ]);
