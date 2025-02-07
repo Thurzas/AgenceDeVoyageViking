@@ -14,3 +14,7 @@ nav {
     }
   }
 }
+.AllButton {
+  display: flex;
+  gap: 20px;
+}

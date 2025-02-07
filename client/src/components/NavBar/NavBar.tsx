@@ -13,7 +13,7 @@ function NavBar() {
         <li>Service à la carte</li>
         <li>Contact</li>
       </ul>
-      <div>
+      <div className="AllButton">
         <ButtonBlue texte="Booker un raid" link="#" />
         <ButtonGrey texte="Se connecter" link="#" />
       </div>
