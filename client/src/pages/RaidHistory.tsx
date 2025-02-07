@@ -23,18 +23,19 @@ function RaidHistory() {
           <hr color="black" />
           <br />
           <ul>
-            {raids?.raids ?
+            {raids?.raids ? (
               raids.raids.map((raid) => (
                 <li key={raid.id_raid} className="raid-item questComponent">
                   <Link to={`/history/${raid.id_raid}`}>
                     <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
                   </Link>
                 </li>
-              )):
+              ))
+            ) : (
               <li className="raid-item questComponent">
-                  <p>Pas de raids en cours...</p>
+                <p>Pas de raids en cours...</p>
               </li>
-            }
+            )}
           </ul>
         </div>
       </div>
