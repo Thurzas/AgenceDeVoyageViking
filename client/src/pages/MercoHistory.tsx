@@ -36,7 +36,7 @@ function MercoHistory() {
                   key={mercenaire.id_mercenaire}
                   className="raid-item questComponent"
                 >
-                  <Link to={`/history/${mercenaire.id_mercenaire}`}>
+                  <Link to={`/mercenaires/${mercenaire.id_mercenaire}`}>
                     <Mercenaire data={mercenaire} />
                   </Link>
                 </li>
