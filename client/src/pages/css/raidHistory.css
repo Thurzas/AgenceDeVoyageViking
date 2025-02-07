@@ -24,12 +24,12 @@
   border-image-outset: 11;
   border-image-repeat: stretch;
   border-style: solid;
-    list-style: none;
+  list-style: none;
   margin: 90px auto;
   background: #feefd3;
   width: 60%;
   padding: 69px !important;
-  text-align: left; 
+  text-align: left;
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.5);
   perspective: 1000px;
   background-blend-mode: multiply;
