@@ -11,7 +11,7 @@ function DescriptionBookRaid() {
         un large de choix de guerier et barbare en tout genre.Raider vous permet
         de pillez, voler, tué avec pour seul limite votre budget.
       </p>
-      <ButtonNav />
+      <ButtonNav texte={"historique de raid"} link={""} />
     </div>
   );
 }
