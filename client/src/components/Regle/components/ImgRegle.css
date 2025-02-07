@@ -1,0 +1,9 @@
+.ImgRegle {
+  background-color: var(--third-color);
+
+  img {
+    border-radius: 113px 0px 0px 113px;
+    width: 647px;
+    height: 895px;
+  }
+}

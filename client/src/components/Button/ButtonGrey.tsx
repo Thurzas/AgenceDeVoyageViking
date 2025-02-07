@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import "./css/ButtonGrey.css";
 
-interface ButtonBlueProps {
+interface ButtonGreyProps {
   texte: string;
   link: string;
   onClick?: () => void;
 }
 
-function ButtonGrey({ texte, link, onClick }: ButtonBlueProps) {
+function ButtonGrey({ texte, link, onClick }: ButtonGreyProps) {
   return (
     <Link to={link}>
       <button type="button" className="ButtonGrey" onClick={onClick}>

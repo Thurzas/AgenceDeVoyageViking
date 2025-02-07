@@ -1,0 +1,22 @@
+.DescriptionNosGuerrier {
+  background-color: var(--third-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h2 {
+    font-size: 96px;
+    margin-top: 10%;
+  }
+  p {
+    color: white;
+    font-size: 36px;
+    padding: 0 50px;
+  }
+}
+
+.PetitTexte {
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+}
