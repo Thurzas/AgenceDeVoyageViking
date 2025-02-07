@@ -18,9 +18,77 @@
     border-radius: 8px;
     background: var(--3rd);
     cursor: pointer;
+    border: none;
 
     h2 {
       color: black;
+    }
+  }
+
+  .options-container-open {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 19px 24px;
+    border-radius: 8px;
+    background: var(--3rd);
+    cursor: pointer;
+    border: none;
+    gap: 20px;
+
+    .select-button-position {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+
+    h2 {
+      color: black;
+    }
+  }
+
+  .options-container-selected {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 19px 24px;
+    border-radius: 8px;
+    background: var(--second-color);
+    cursor: pointer;
+    border: none;
+
+    h2 {
+      color: white;
+    }
+  }
+
+  .options-container-selected-open {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    padding: 19px 24px;
+    border-radius: 8px;
+    background: var(--second-color);
+    cursor: pointer;
+    border: none;
+    gap: 20px;
+
+    .select-button-position {
+      display: flex;
+      justify-content: end;
+      width: 100%;
+    }
+
+    h2 {
+      color: white;
+    }
+
+    .ButtonBlue {
+      background-color: var(--third-color);
+    }
+
+    .ButtonBlue:hover {
+      background-color: #b5cedb;
     }
   }
 }

@@ -1,0 +1,87 @@
+.newRaid-Recap-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 100px);
+  position: relative;
+  top: 100px;
+  background-color: var(--main-color);
+
+  .recap-title {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .recap-details {
+    display: flex;
+    margin: 60px 0;
+    flex-direction: column;
+    width: 800px;
+    gap: 20px;
+  }
+
+  .raid-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+    h2 {
+      margin: 10px;
+      color: rgba(255, 255, 255, 0.589);
+    }
+
+    .h2-price-recap {
+      margin-right: 10px;
+
+      h2 {
+        color: var(--second-color);
+        font-weight: 800;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .total-cost {
+    display: flex;
+    width: 800px;
+    padding: 17px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: var(--3rd, #dce6eb);
+
+    .total-cost-text {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      h1 {
+        color: black;
+      }
+
+      .total-raid-price {
+        color: var(--second-color);
+      }
+    }
+
+    .ButtonBlue {
+      background-color: var(--second-color);
+      text-decoration: none;
+      border: none;
+      padding: 12px 17px;
+      font-size: 1.5rem;
+      color: white;
+      min-width: 160px;
+      width: 750px;
+      height: 70px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: ease-in-out 0.2s;
+    }
+  }
+}
