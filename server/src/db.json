@@ -213,84 +213,84 @@
   ],
   "Destination": [
     {
-      "id_Lieu": "1",
+      "id_Lieu": 1,
       "nom_destination": "Monastère de Saint-Martin",
       "difficulté": "facile",
       "description": "Un monastère riche en objets sacrés et en provisions",
       "id_pays": "mais faiblement défendu."
     },
     {
-      "id_Lieu": "2",
+      "id_Lieu": 2,
       "nom_destination": "Château de Rouen",
       "difficulté": "moyen",
       "description": "Un château fortifié avec des réserves importantes",
       "id_pays": "mais une garnison vigilante."
     },
     {
-      "id_Lieu": "3",
+      "id_Lieu": 3,
       "nom_destination": "Village de Bayeux",
       "difficulté": "facile",
       "description": "Un petit village côtier avec des ressources limitées",
       "id_pays": "mais facile à piller."
     },
     {
-      "id_Lieu": "4",
+      "id_Lieu": 4,
       "nom_destination": "Abbaye de Jumièges",
       "difficulté": "difficile",
       "description": "Une abbaye fortifiée avec des trésors religieux",
       "id_pays": "mais bien défendue par des moines guerriers."
     },
     {
-      "id_Lieu": "5",
+      "id_Lieu": 5,
       "nom_destination": "Village de Lindisfarne",
       "difficulté": "facile",
       "description": "Un village monastique isolé avec des richesses sacrées",
       "id_pays": "mais peu de défenses."
     },
     {
-      "id_Lieu": "6",
+      "id_Lieu": 6,
       "nom_destination": "Forteresse de York",
       "difficulté": "difficile",
       "description": "Une forteresse anglaise bien défendue",
       "id_pays": "mais regorgeant de trésors et de provisions."
     },
     {
-      "id_Lieu": "7",
+      "id_Lieu": 7,
       "nom_destination": "Côte du Kent",
       "difficulté": "moyen",
       "description": "Une côte riche en petits villages et en navires marchands",
       "id_pays": "mais avec des milices locales."
     },
     {
-      "id_Lieu": "8",
+      "id_Lieu": 8,
       "nom_destination": "Monastère de Whitby",
       "difficulté": "moyen",
       "description": "Un monastère en hauteur avec des objets précieux",
       "id_pays": "mais des défenses naturelles."
     },
     {
-      "id_Lieu": "9",
+      "id_Lieu": 9,
       "nom_destination": "Village de Hedeby",
       "difficulté": "facile",
       "description": "Un village commerçant prospère",
       "id_pays": "mais peu défendu en dehors des saisons de commerce."
     },
     {
-      "id_Lieu": "10",
+      "id_Lieu": 10,
       "nom_destination": "Forteresse de Trelleborg",
       "difficulté": "difficile",
       "description": "Une forteresse circulaire bien défendue",
       "id_pays": "mais avec des réserves importantes."
     },
     {
-      "id_Lieu": "11",
+      "id_Lieu": 11,
       "nom_destination": "Côte de Jutland",
       "difficulté": "moyen",
       "description": "Une côte parsemée de petits villages et de navires de pêche",
       "id_pays": "mais avec des raids fréquents."
     },
     {
-      "id_Lieu": "12",
+      "id_Lieu": 12,
       "nom_destination": "Temple d\\'Uppsala",
       "difficulté": "légendaire",
       "description": "Un temple sacré regorgeant d\\'offrandes et de trésors",
