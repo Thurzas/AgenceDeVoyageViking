@@ -4,8 +4,8 @@ import "./css/ButtonNav.css";
 function ButtonNav() {
   return (
     <div className="ButtonNav">
-      <ButtonBlue />
-      <ButtonGrey />
+      <ButtonBlue texte="Créer un raid" link={"/new-raid"} />
+      <ButtonGrey texte="Annuler" link={"/"} />
     </div>
   );
 }

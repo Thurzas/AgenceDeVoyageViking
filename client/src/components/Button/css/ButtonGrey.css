@@ -5,4 +5,11 @@
   padding: 12px 17px;
   font-size: 1.5rem;
   border-radius: 3px 3px 3px 3px;
+  min-width: 160px;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.ButtonGrey:hover {
+  background-color: #b5cedb;
 }

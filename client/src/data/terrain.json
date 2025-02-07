@@ -1,0 +1,57 @@
+{
+  "angleterre": [
+    {
+      "id": "eng_1",
+      "name": "Winchester Abbey",
+      "difficulty": "hard",
+      "reward": "very-high",
+      "description": "Une riche abbaye fortifiée regorgeant de trésors religieux et de manuscrits précieux."
+    },
+    {
+      "id": "eng_2",
+      "name": "Port of London",
+      "difficulty": "medium",
+      "reward": "high",
+      "description": "Un port commercial majeur avec de nombreux entrepôts remplis de marchandises exotiques."
+    }
+  ],
+  "france": [
+    {
+      "id": "fr_1",
+      "name": "Abbaye de Saint-Denis",
+      "difficulty": "hard",
+      "reward": "very-high",
+      "description": "Une abbaye royale abritant les tombeaux des rois de France et d'immenses richesses."
+    },
+    {
+      "id": "fr_2",
+      "name": "Port de Rouen",
+      "difficulty": "medium",
+      "reward": "high",
+      "description": "Un port fluvial prospère avec de nombreux navires marchands et entrepôts."
+    },
+    {
+      "id": "fr_3",
+      "name": "Monastère de Jumièges",
+      "difficulty": "easy",
+      "reward": "medium",
+      "description": "Un monastère isolé le long de la Seine, connu pour sa grande bibliothèque."
+    }
+  ],
+  "danemark": [
+    {
+      "id": "dk_1",
+      "name": "Port de Ribe",
+      "difficulty": "medium",
+      "reward": "high",
+      "description": "Le plus ancien port marchand du Danemark, centre du commerce de la mer du Nord."
+    },
+    {
+      "id": "dk_2",
+      "name": "Village de Hedeby",
+      "difficulty": "easy",
+      "reward": "medium",
+      "description": "Une colonie commerciale prospère avec de nombreux artisans et marchands."
+    }
+  ]
+}

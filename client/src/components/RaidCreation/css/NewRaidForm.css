@@ -1,0 +1,48 @@
+.newRaidForm {
+  display: flex;
+  justify-content: center;
+  background-color: var(--main-color);
+  width: 540px;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px 25px;
+
+  .formSections {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formSectionsMain {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .textContainer {
+    width: 100%;
+
+    p {
+      color: white;
+    }
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  input,
+  select {
+    height: 65px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e5eef5;
+    font-size: 1em;
+  }
+}
