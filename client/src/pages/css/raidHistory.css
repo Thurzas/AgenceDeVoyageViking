@@ -20,14 +20,15 @@
 .questComponent {
   border-image-source: url("/src/assets/images/questBorderImage.svg");
   border-image-slice: 237;
-  border-image-width: 35px;
-  border-image-outset: 11;
+  border-image-width: 66px;
+  border-image-outset: 21;
   border-image-repeat: stretch;
   border-style: solid;
   list-style: none;
-  margin-top: 90px;
   background: #feefd3;
   padding: 69px !important;
+  width: 50%;
+  margin: 160px 90px 25% 25%;
   text-align: left;
   h2 {
     color: black !important;
@@ -39,15 +40,16 @@
 }
 
 .questPanel {
-  width: 90%;
-  padding: 25px;
+  width: 70%;
+  padding: 7px;
   background: url(https://i.pinimg.com/600x315/ef/8f/8a/ef8f8a409730ad8b10767ea03d42f734.jpg);
+  margin: 0 auto;
 }
 
 .liegePart {
   align-items: center;
-  width: 85%;
-  padding: 5%;
+  width: 100%;
+  padding: 5px;
   margin: auto;
   background: url(https://www.tilingtextures.com/wp-content/uploads/2018/12/0074-1024x1024.jpg);
   font-size: 1.15em;

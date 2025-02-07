@@ -28,9 +28,17 @@ function RaidDetail() {
     return (
       <>
         <NavBar />
-        <div className="raidHistory">
-          <h2>Pas de raid...</h2>
-          <p>Allez ouste barbare ! il n'y pas de raid ici !</p>
+        <div className="questPanel">
+          <div className="liegePart">
+            <hr color="black" />
+            <br />
+            <ul>
+              <li>
+                <h2>ce raid n'éxiste pas...</h2>
+                <p>Allez ouste barbare ! il n'y pas de raid ici !</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </>
     );
@@ -38,11 +46,17 @@ function RaidDetail() {
   return (
     <>
       <NavBar />
-      <div className="raidHistory">
-        <li key={raid.id_raid} className="raid-item">
-          <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
-        </li>
-      </div>
+      <div className="questPanel">
+          <div className="liegePart">
+            <hr color="black" />
+            <br />
+            <ul>
+              <li className="raid-item questComponent">
+                <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
+              </li>
+            </ul>
+          </div>
+        </div>
     </>
   );
 }

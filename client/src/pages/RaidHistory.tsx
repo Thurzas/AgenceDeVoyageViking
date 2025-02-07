@@ -18,7 +18,7 @@ function RaidHistory() {
   return (
     <>
       <NavBar />
-      <div className="QuestPanel">
+      <div className="questPanel">
         <div className="liegePart">
           <hr color="black" />
           <br />
