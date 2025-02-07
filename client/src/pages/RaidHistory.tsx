@@ -18,18 +18,25 @@ function RaidHistory() {
   return (
     <>
       <NavBar />
-      <div className="raidHistory">
-        {raids?.raids ? (
-          raids.raids.map((raid) => (
-            <li key={raid.id_raid} className="raid-item">
-              <Link to={`/history/${raid.id_raid}`}>
-                <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
-              </Link>
-            </li>
-          ))
-        ) : (
-          <li>il n'y a pas de raids, il n'y en a jamais eu.</li>
-        )}
+      <div className="QuestPanel">
+        <div className="liegePart">
+          <hr color="black" />
+          <br />
+          <ul>
+            {raids?.raids ?
+              raids.raids.map((raid) => (
+                <li key={raid.id_raid} className="raid-item questComponent">
+                  <Link to={`/history/${raid.id_raid}`}>
+                    <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
+                  </Link>
+                </li>
+              )):
+              <li className="raid-item questComponent">
+                  <p>Pas de raids en cours...</p>
+              </li>
+            }
+          </ul>
+        </div>
       </div>
     </>
   );
