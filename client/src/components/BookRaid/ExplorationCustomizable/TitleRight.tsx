@@ -13,7 +13,7 @@ function TitleRight() {
         des missions de sauvetage.
       </p>
       <div className="ButtonPositionTitleRight">
-        <ButtonBlue />
+        <ButtonBlue texte="booker un raid" link={""} />
       </div>
     </div>
   );

@@ -15,7 +15,7 @@ function TitleNosGuerrier() {
         expérience unique ! Que vous soyez un guerrier en herbe ou un barbare
         aguerri, le plaisir est garanti !
       </p>
-      <ButtonBlue />
+      <ButtonBlue texte="nos guerrier" link={""} />
     </div>
   );
 }

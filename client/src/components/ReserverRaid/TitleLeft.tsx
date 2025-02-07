@@ -11,7 +11,7 @@ function TitleLeft() {
         l'assurance pillage ou trahison.
       </p>
       <div className="ButtonPositionTitleLeft">
-        <ButtonBlue />
+        <ButtonBlue texte="rejoindre un raid" link={""} />
       </div>
     </div>
   );
