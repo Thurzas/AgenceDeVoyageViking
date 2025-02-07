@@ -53,6 +53,10 @@ const router = createBrowserRouter([
     path: "/history/:id", // The root path
     element: <RaidDetail />, // Renders the App component for the home page
   },
+  {
+    path: "/new_raid_recap", // The root path
+    element: <NewRaidRecap />, // Renders the App component for the home page
+  },
   // Try adding a new route! For example, "/about" with an About component
 ]);
 

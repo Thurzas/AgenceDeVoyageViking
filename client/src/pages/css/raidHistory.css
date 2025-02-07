@@ -25,10 +25,16 @@
   border-image-repeat: stretch;
   border-style: solid;
   list-style: none;
-  margin-top: 90px;
+  margin: 90px auto;
   background: #feefd3;
+  width: 60%;
   padding: 69px !important;
   text-align: left;
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.5);
+  perspective: 1000px;
+  background-blend-mode: multiply;
+  position: relative;
+  filter: url(#crumpledPaper);
   h2 {
     color: black !important;
   }
@@ -39,15 +45,18 @@
 }
 
 .questPanel {
-  width: 90%;
-  padding: 25px;
+  box-shadow: 10px 0.25rem 1rem rgba(0, 0, 0, 0.5);
+  width: 70%;
+  padding: 5px;
+  margin: 0 auto;
   background: url(https://i.pinimg.com/600x315/ef/8f/8a/ef8f8a409730ad8b10767ea03d42f734.jpg);
 }
 
 .liegePart {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
   align-items: center;
-  width: 85%;
-  padding: 5%;
+  width: 100%;
+  padding: 5px;
   margin: auto;
   background: url(https://www.tilingtextures.com/wp-content/uploads/2018/12/0074-1024x1024.jpg);
   font-size: 1.15em;
