@@ -513,7 +513,8 @@
       "sexe": true,
       "arme": "Hache à double tranchant",
       "specialité": "Combat en duel",
-      "cout": 850
+      "cout": 850,
+      "portrait": "Ragnar.jpg"
     },
     {
       "id_mercenaire": 2,
@@ -528,7 +529,8 @@
       "sexe": true,
       "arme": "Masse d’armes",
       "specialité": "Percée des lignes ennemies",
-      "cout": 820
+      "cout": 820,
+      "portrait": "Bjorn.jpg"
     },
     {
       "id_mercenaire": 3,
@@ -543,7 +545,8 @@
       "sexe": false,
       "arme": "Lame courte et bouclier",
       "specialité": "Embuscades et tactiques furtives",
-      "cout": 800
+      "cout": 800,
+      "portrait": "astrid.jpg"
     },
     {
       "id_mercenaire": 4,
@@ -558,7 +561,8 @@
       "sexe": true,
       "arme": "Épée longue",
       "specialité": "Batailles rangées",
-      "cout": 830
+      "cout": 830,
+      "portrait": "erik.png"
     },
     {
       "id_mercenaire": 5,
@@ -573,7 +577,8 @@
       "sexe": true,
       "arme": "Hache à une main et bouclier",
       "specialité": "Défense des positions",
-      "cout": 840
+      "cout": 840,
+      "portrait": "gunnar.jpg"
     },
     {
       "id_mercenaire": 6,
@@ -588,7 +593,8 @@
       "sexe": false,
       "arme": "Deux dagues",
       "specialité": "Assassinat et espionnage",
-      "cout": 780
+      "cout": 780,
+      "portrait": "freya.jpg"
     },
     {
       "id_mercenaire": 7,
@@ -603,7 +609,8 @@
       "sexe": true,
       "arme": "Marteau de guerre",
       "specialité": "Combat en mêlée",
-      "cout": 860
+      "cout": 860,
+      "portrait": "thorvald.jpg"
     },
     {
       "id_mercenaire": 8,
@@ -618,7 +625,8 @@
       "sexe": false,
       "arme": "Lance",
       "specialité": "Combats navals",
-      "cout": 820
+      "cout": 820,
+      "portrait": "hilda.jpg"
     },
     {
       "id_mercenaire": 9,
@@ -633,7 +641,8 @@
       "sexe": true,
       "arme": "Arc long",
       "specialité": "Attaque à distance",
-      "cout": 830
+      "cout": 830,
+      "portrait": "Sigurd.jpg"
     },
     {
       "id_mercenaire": 10,
@@ -648,7 +657,8 @@
       "sexe": true,
       "arme": "Hache de jet",
       "specialité": "Tactiques de guérilla",
-      "cout": 810
+      "cout": 810,
+      "portrait": "ulf.png"
     }
   ],
   "Compagnon": [

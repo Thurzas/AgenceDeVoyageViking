@@ -27,7 +27,7 @@
   list-style: none;
   margin: 90px auto;
   background: #feefd3;
-  width: 60%;
+  width: fit-content;
   padding: 69px !important;
   text-align: left;
   box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.5);
@@ -41,6 +41,10 @@
   a {
     text-decoration: none;
     color: black;
+  }
+  img {
+    width: 250px;
+    scale: 1;
   }
 }
 
