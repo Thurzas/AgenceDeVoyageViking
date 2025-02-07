@@ -10,9 +10,9 @@ import App from "./App";
 import NewRaid from "./pages/CreatNewRaid_01";
 import NewRaidOptions from "./pages/CreatNewRaid_02";
 import NewRaidAssurance from "./pages/CreatNewRaid_03";
-import RaidDetail from "./pages/RaidDetail";
 import RaidHistory from "./pages/RaidHistory";
 import NewRaidRecap from "./pages/CreatNewRaid_Recap";
+import RaidDetail from "./pages/raidDetail";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
