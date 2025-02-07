@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Karvi",
+    "power": "low",
+    "size": "small",
+    "speed": "fast",
+    "cost": 500,
+    "capacity": 20,
+    "durability": "fragile",
+    "description": "Un petit navire léger et rapide, idéal pour les raids rapides et les explorations côtières. Parfait pour les petits groupes, mais peu résistant en cas de tempête ou de combat naval."
+  },
+  {
+    "id": 2,
+    "name": "Færing",
+    "power": "low",
+    "size": "very small",
+    "speed": "very fast",
+    "cost": 300,
+    "capacity": 8,
+    "durability": "very fragile",
+    "description": "Une petite embarcation légère, utilisée pour le transport de quelques personnes ou pour la pêche. Très rapide, mais inadaptée aux eaux agitées ou aux combats."
+  },
+  {
+    "id": 3,
+    "name": "Snekkja",
+    "power": "medium",
+    "size": "medium",
+    "speed": "moderate",
+    "cost": 1200,
+    "capacity": 40,
+    "durability": "medium",
+    "description": "Un navire polyvalent, utilisé pour les raids et les voyages en mer. Assez solide pour affronter les vagues modérées et transporter une bonne quantité de butin."
+  },
+  {
+    "id": 4,
+    "name": "Skeid",
+    "power": "high",
+    "size": "large",
+    "speed": "moderate",
+    "cost": 2500,
+    "capacity": 70,
+    "durability": "high",
+    "description": "Un grand navire de guerre, conçu pour les batailles navales et les raids de grande envergure. Capable de transporter de nombreux guerriers et de résister à des conditions difficiles."
+  },
+  {
+    "id": 6,
+    "name": "Knarr",
+    "power": "medium",
+    "size": "large",
+    "speed": "slow",
+    "cost": 3000,
+    "capacity": 30,
+    "durability": "high",
+    "description": "Un navire de commerce robuste, conçu pour transporter des marchandises sur de longues distances. Moins rapide et moins maniable que les navires de guerre, mais très résistant et fiable pour les voyages en haute mer."
+  },
+  {
+    "id": 5,
+    "name": "Drakkar",
+    "power": "very high",
+    "size": "very large",
+    "speed": "slow",
+    "cost": 5000,
+    "capacity": 100,
+    "durability": "very high",
+    "description": "Le navire emblématique des Vikings, reconnaissable à sa proue sculptée en forme de dragon. Très puissant et solide, il est utilisé pour les raids majeurs et les expéditions lointaines. Lent, mais impressionnant et redoutable."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "material": "Navire",
+    "cost_per_soldier": 1500
+  },
+  {
+    "id": 2,
+    "material": "Mort",
+    "cost_per_soldier": 1500
+  }
+]

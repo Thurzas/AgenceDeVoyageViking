@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "material": "wood",
+    "rank": 1,
+    "cost_per_soldier": 10,
+    "durability": "low",
+    "lightness": "very light"
+  },
+  {
+    "id": 2,
+    "material": "wood and stone",
+    "rank": 2,
+    "cost_per_soldier": 25,
+    "durability": "medium",
+    "lightness": "light"
+  },
+  {
+    "id": 3,
+    "material": "iron",
+    "rank": 3,
+    "cost_per_soldier": 100,
+    "durability": "high",
+    "lightness": "moderate"
+  },
+  {
+    "id": 4,
+    "material": "forged iron",
+    "rank": 4,
+    "cost_per_soldier": 200,
+    "durability": "very high",
+    "lightness": "moderate"
+  },
+  {
+    "id": 5,
+    "material": "reinforced forged iron",
+    "rank": 5,
+    "cost_per_soldier": 500,
+    "durability": "exceptional",
+    "lightness": "light"
+  }
+]

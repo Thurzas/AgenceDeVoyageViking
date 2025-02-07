@@ -1,0 +1,26 @@
+.newRaid-options-main {
+  display: flex;
+  width: 950px;
+  padding: 12px 22px 22px 22px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+
+  .options-container {
+    display: flex;
+    width: 900px;
+    padding: 19px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--3rd);
+    cursor: pointer;
+
+    h2 {
+      color: black;
+    }
+  }
+}
