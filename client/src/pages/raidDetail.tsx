@@ -47,16 +47,16 @@ function RaidDetail() {
     <>
       <NavBar />
       <div className="questPanel">
-          <div className="liegePart">
-            <hr color="black" />
-            <br />
-            <ul>
-              <li className="raid-item questComponent">
-                <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
-              </li>
-            </ul>
-          </div>
+        <div className="liegePart">
+          <hr color="black" />
+          <br />
+          <ul>
+            <li className="raid-item questComponent">
+              <Raid raid={raid} destination={getPlace(raid.id_Lieu)[0]} />
+            </li>
+          </ul>
         </div>
+      </div>
     </>
   );
 }
