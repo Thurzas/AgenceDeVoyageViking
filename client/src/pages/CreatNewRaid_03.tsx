@@ -1,5 +1,5 @@
 import ButtonBlue from "../components/Button/ButtonBlue";
-import NewRaidOptionSelector from "../components/RaidCreation/NewRaidChoiseSelect";
+import NewRaidOptionAssurances from "../components/RaidCreation/NewRaidChoiseAssurances";
 import NewRaidNavBar from "../components/RaidCreation/NewRaidNavBar";
 import NewRaidTitle from "../components/RaidCreation/newRaidPageTitle";
 
@@ -10,12 +10,12 @@ function NewRaidAssurance() {
     <div className="newRaid-Assurance-page">
       <NewRaidNavBar link={"/new_raid_option"} />
       <NewRaidTitle isInsurrance={true} />
-      <NewRaidOptionSelector
+      <NewRaidOptionAssurances
         itemChoice="vos assurances"
         setChoiceType="assurances"
       />
       <div className="button-container-raidCreation">
-        <ButtonBlue texte="Etape suivante" link={"/"} />
+        <ButtonBlue texte="Etape suivante" link={"/new_raid_recap"} />
       </div>
     </div>
   );

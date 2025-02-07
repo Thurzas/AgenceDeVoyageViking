@@ -10,8 +10,9 @@ import App from "./App";
 import NewRaid from "./pages/CreatNewRaid_01";
 import NewRaidOptions from "./pages/CreatNewRaid_02";
 import NewRaidAssurance from "./pages/CreatNewRaid_03";
-import RaidDetail from "./pages/RaidDetail";
+import NewRaidRecap from "./pages/CreatNewRaid_Recap";
 import RaidHistory from "./pages/RaidHistory";
+import RaidDetail from "./pages/raidDetail";
 
 // Import additional components for new routes
 // Try creating these components in the "pages" folder
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/new_raid_insurance", // The root path
     element: <NewRaidAssurance />, // Renders the App component for the home page
+  },
+  {
+    path: "/new_raid_recap", // The root path
+    element: <NewRaidRecap />, // Renders the App component for the home page
   },
   {
     path: "/history", // The root path
