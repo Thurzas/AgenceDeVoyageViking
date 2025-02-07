@@ -1,17 +1,22 @@
-import ButtonNav from "../Button/ButtonNav";
+import ButtonBlue from "../Button/ButtonBlue";
+import ButtonGrey from "../Button/ButtonGrey";
 import "./NavBar.css";
 import Logo from "./components/Logo";
+
 function NavBar() {
   return (
     <nav>
       <Logo />
       <ul>
         <li>Historique de raid</li>
-        <li>Nos guerriés</li>
-        <li>Service a la carte</li>
+        <li>Nos guerriers</li>
+        <li>Service à la carte</li>
         <li>Contact</li>
       </ul>
-      <ButtonNav />
+      <div className="AllButton">
+        <ButtonBlue texte="Booker un raid" link="#" />
+        <ButtonGrey texte="Se connecter" link="#" />
+      </div>
     </nav>
   );
 }

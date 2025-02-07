@@ -1,0 +1,15 @@
+.TitleRight {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-top: 50px;
+  h2 {
+    color: black;
+    font-size: 64px;
+  }
+  p {
+    color: black;
+    opacity: 0.76;
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,25 @@
+.ReserverRaid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--third-color);
+  gap: 50px;
+}
+.textImgRight {
+  display: flex;
+  flex-direction: row;
+}
+.ImgTitleMidlePage {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+}
+.TextPersona {
+  h2 {
+    font-size: 96px;
+  }
+  p {
+    font-size: 36px;
+  }
+}

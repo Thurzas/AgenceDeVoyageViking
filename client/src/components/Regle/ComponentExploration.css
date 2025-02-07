@@ -1,0 +1,10 @@
+.ComponentExploration {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-color: var(--third-color);
+  padding-left: 40px;
+  gap: 50px;
+  padding-bottom: 200px;
+}
