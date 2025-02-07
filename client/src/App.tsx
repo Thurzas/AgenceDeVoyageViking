@@ -4,8 +4,10 @@ import ExplorationCustomizable from "./components/BookRaid/ExplorationCustomizab
 import NosGuerrier from "./components/BookRaid/NosGuerrier";
 import TriplePitcure from "./components/BookRaid/NosGuerrier/TriplePicture";
 import ReserverRaid from "./components/BookRaid/ReserverRaid";
+import Footer from "./components/footer/Footer";
 
 import NavBar from "./components/NavBar/NavBar";
+import ComponentExploration from "./components/Regle/ComponentExploration";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
       <TriplePitcure />
       <ReserverRaid />
       <ExplorationCustomizable />
+      <ComponentExploration />
+      <Footer />
     </>
   );
 }

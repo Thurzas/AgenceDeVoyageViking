@@ -1,12 +1,15 @@
 .ImgLeft {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  width: 50%;
+  width: 100%; /* Largeur réduite */
+  height: 100%; /* Hauteur fixe ajoutée */
+  padding-top: 50px;
 
   img {
-    border-radius: 0px 96px 96px 0px;
-    height: 50%;
+    border-radius: 0 96px 96px 0;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
   }
 }
